@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+.sonic {
+    position: relative;
+    top: -50px;
+    left: 120px;
+    width: 50%;
+    height: 100%;
+    display: block;
+    background: transparent url(image/ezgif.com-gif-maker.png) 0 0 no-repeat;
+    margin: 3em auto;
+    animation: walker 0.5s steps(8) infinite;
+}
+
+.fondo {
+    width: 1800px;
+    height: 50%;
+    background:url(image/5941d5f043e1fe1b05577f146928cc68ac84e61fr1-1022-498v2_uhq.jpg);
+    overflow: hidden;
+    background-size: 130%;
+    background-position: 0 -410px;
+    animation: fondo 0.9s linear infinite;
+}
+
+.mario {
+    position: relative;
+    top: 835px;
+    left: 120px;
+    width: 20%;
+    height: 15%;
+    display: block;
+    background: transparent url(image/mario.png) 0 0 no-repeat;
+    margin: 3em auto;
+    animation: walker2 0.3s steps(3) infinite;
+}
+
+
+.fondo2 {
+    width: 100%;
+    height: 1200px;
+    background: url(image/03748f3c8f5aa92936fdbd1b16616c89.jpg);
+    animation: fondo2 0.9s linear infinite;
+}
+
+@keyframes walker {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 -4000px;
+    }
+}
+
+@keyframes walker2 {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 -600px;
+    }
+}
+
+@keyframes fondo {
+    0% {
+        background-position: 0 -410px;
+    }
+
+    100% {
+        background-position: -1800px -410px;
+    }
+    
+}
+
+@keyframes fondo2 {
+    0% {
+        background-position: 0 ;
+    }
+
+    100% {
+        background-position: -750px;
+    }
+    
+}
